@@ -1,0 +1,281 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #fff;
+}
+
+/* Navigation bar  */
+
+nav {
+  border-bottom: 1px solid #f1f1f1;
+  height: 58px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 16px;
+  margin-top: 2.5%;
+  margin-left: 6%;
+  font-weight: 600;
+}
+nav ul li {
+  margin-right: 4%;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #555657;
+}
+.btn {
+  padding: 1px 14px;
+  border-radius: 20px;
+  background-color: #efc94c;
+}
+.logoImg {
+  width: 140px;
+  height: 70px;
+  margin-top: -4%;
+  margin-left: 2%;
+}
+
+/* Initiatives Page content  */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 5%;
+  margin-left: 7%;
+  margin-right: 4%;
+}
+.borderBox {
+  box-sizing: border-box;
+  border: 1px solid #dbdbdd;
+  width: 370px;
+  height: 680px;
+}
+.borderBox1 {
+  box-sizing: border-box;
+  border: 1px solid #dbdbdd;
+  width: 370px;
+  height: 570px;
+}
+.borderBox2 {
+  box-sizing: border-box;
+  border: 1px solid #dbdbdd;
+  width: 370px;
+  height: 600px;
+}
+.imgSize {
+  width: 100%;
+  margin-bottom: 6%;
+}
+h2 {
+  margin: auto;
+  font-size: 20px;
+  margin-bottom: 4%;
+  color: #555657;
+  font-weight: bold;
+  width: 80%;
+}
+p {
+  margin: auto;
+  width: 80%;
+  font-size: 15px;
+  font-weight: bold;
+  color: #878887;
+  margin-bottom: 7%;
+  line-height: 30px;
+}
+.readBtn {
+  margin-left: 10%;
+  text-decoration: none;
+  padding: 8px 20px;
+  background-color: #00baa3;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 20px;
+}
+.readBtn1 {
+  margin-left: 10%;
+  text-decoration: none;
+  padding: 8px 20px;
+  background-color: #d55342;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 20px;
+}
+.readBtn2 {
+  margin-left: 10%;
+  text-decoration: none;
+  padding: 8px 20px;
+  background-color: #b250d2;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 20px;
+}
+
+/* Contact Page */
+
+.sectionImg {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(images/girlcodesaturday.png);
+  height: 55vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 4%;
+}
+.contactText {
+  color: #fff;
+  font-size: 40px;
+  margin-left: 7%;
+}
+
+/* Contact form */
+.contactGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.formContainer {
+  width: 700px;
+  margin-left: 12%;
+}
+.txtAlign {
+  display: inline-block;
+}
+.inputField {
+  width: 580px;
+  height: 60px;
+  border: 1px solid #f0f0f3;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 4%;
+  background-color: #f9f9f9;
+}
+.textareaField {
+  height: 260px;
+  padding-top: 3%;
+}
+.formBtn {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 22px;
+  cursor: pointer;
+  margin-top: 2%;
+  border-radius: 25px;
+  border: none;
+  background-color: #ff4a60;
+  color: #fff;
+}
+#map {
+  height: 270px;
+  width: 88%;
+  margin-bottom: 8%;
+  margin-left: 2%;
+}
+.infoGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 88%;
+  margin-left: 2%;
+}
+.infoAlign {
+  display: inline-block;
+}
+.infoAlign2 {
+  margin-top: -17%;
+  text-align: end;
+}
+.infoAlign3 {
+  margin-top: -5%;
+}
+.available {
+  text-align: start;
+  font-size: 16px;
+  margin-top: 8%;
+}
+.left {
+  margin-left: 12%;
+}
+hr {
+  height: 1px;
+  color: #e2e4e5;
+  background-color: #e2e4e5;
+  border: none;
+}
+.newHr {
+  margin-bottom: 3%;
+}
+
+/* Footer  */
+
+.footerContainer {
+  background-image: url("images/background.jpg");
+  height: 60vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-top: 3%;
+}
+.mainContainer {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.logoSize {
+  width: 250px;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.num1Img {
+  width: 21px;
+  margin-top: 22%;
+}
+.num3Img {
+  width: 21px;
+  margin-top: 2%;
+}
+.paraColor {
+  color: #b3b8b3;
+  margin-top: 3%;
+}
+.para1 {
+  width: 70%;
+  font-size: 14px;
+  color: #f9ffff;
+  letter-spacing: 1px;
+  margin-left: 12%;
+  margin-top: -10%;
+}
+.iconAlign {
+  margin: 0 500px 18px 6px;
+  width: 140px;
+}
+
+/* Social media icons */
+
+.socialIcons {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+.fab {
+  font-size: 22px;
+  color: #a3a3a3;
+}
+.iconText {
+  margin-left: -7%;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: #a3a3a3;
+}
