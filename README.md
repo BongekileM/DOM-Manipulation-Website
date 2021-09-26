@@ -11,7 +11,7 @@ Manipulating the DOM using ONLY JavaScript to create a website.
 
 # Description
 
-A clone of both the Initiatives, and Contact pages of the GirlCode za website. This project uses DOM manipulation to manipulate HTML elements in JavaScript, and demonstrates an understanding of JavaScript fundamentals such as ES6 concepts, as well as Modules. These web pages were created usig ONLY Javascript and a few lines of HTML.
+A clone of both the Initiatives, and Contact pages of the GirlCode za website. This project uses DOM manipulation to manipulate HTML elements in JavaScript, and demonstrates an understanding of JavaScript fundamentals such as ES6 concepts, as well as Modules. These web pages were created using ONLY Javascript and a few lines of HTML.
 
 # Screenshots
 
