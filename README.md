@@ -29,8 +29,6 @@ A clone of both the Initiatives, and Contact pages of the GirlCode za website. T
 
 ## [Live Demo Link](https://raw.githack.com/BongekileM/DOM-Manipulation-Website/main/index.html)
 
-https://raw.githack.com/BongekileM/DOM-Manipulation-Website/main/contactus.html
-
 # Prerequisites
 
 - Code Editor of your choice.
